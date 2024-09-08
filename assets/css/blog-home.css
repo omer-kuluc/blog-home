@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-inline: auto;
+  padding-inline: 165px;
+  margin-block: 32px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content a {
+  color: #212121;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.header-user-info a {
+  color: #212121;
+}
+
+.header-user-info img {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.header-user-info a {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: right;
+}
+
+.header-icons {
+  display: flex;
+  list-style: none;
+}
+
+.header-icons .gift-image {
+  padding-left: 48px;
+  padding-right: 40px;
+}
+
+.hero-img {
+  background: url("/assets/img/backround-image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 32px;
+  width: 100%;
+  height: 660px;
+  position: relative;
+}
+
+.hero-img .content {
+  position: absolute;
+  width: 541px;
+  border-radius: 12px;
+  opacity: 0px;
+  background-color: white;
+  margin-top: 388px;
+  margin-left: 165px;
+  padding: 48px;
+}
+
+.hero-img h2 {
+  font-family: "Montserrat";
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: left;
+  color: #212121;
+  margin-bottom: 18px;
+}
+
+.hero-img span {
+  color: #52647c;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 12px;
+}
+
+.hero-img img {
+  vertical-align: middle;
+}
+
+.featured-articles {
+  margin-top: 80px;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  width: 1110px;
+}
+
+.featured-articles-header {
+  margin-top: 80px;
+  margin-bottom: 65px;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: left;
+}
+
+.featured-articles-item {
+  width: 354px;
+}
+
+.ten-beaches-image {
+  border-radius: 12px;
+}
+
+.featured-articles-item h3 {
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  color: #212121;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.featured-articles-text {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+  color: #52647c;
+}
+
+.featured-articles-content p {
+  margin-top: 8px;
+}
+
+.featured-articles-content img {
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+.black-background {
+  background: url("/assets/img/black-background\ .png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 375px;
+  margin-top: 56px;
+  position: relative;
+  background-size: cover;
+  width: 1110px;
+}
+
+.keyboard-section-text {
+  position: absolute;
+  margin-left: 63px;
+  margin-top: 145px;
+  width: 326px;
+  margin-bottom: 64px;
+}
+
+.keyboard-section-text button {
+  width: 112px;
+  height: 32px;
+  padding: 4px 24px 4px 24px;
+  border-radius: 3px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #0d6efd;
+  margin-bottom: 16px;
+}
+
+.keyboard-section-text a {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+}
+
+.keyboard-section-text h4 {
+  font-family: "Montserrat";
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -0.3499999940395355px;
+  color: #ffffff;
+}
+
+.keyboard-section-text img {
+  vertical-align: middle;
+}
+
+.keyboard-section-author span {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.keyboard-section-author {
+  margin-top: 16px;
+  padding-bottom: 64px;
+}
+
+.keyboard-image {
+  position: absolute;
+  top: 57px;
+  left: 534px;
+}
+
+.world-tour-section {
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-inline: auto;
+}
+
+.world-tour-section-item {
+  display: flex;
+  margin-bottom: 56px;
+}
+
+.world-tour-text-area {
+  width: 553px;
+  padding-left: 32px;
+}
+
+.world-tour-text-area h2 {
+  margin-bottom: 8px;
+  margin-top: 28px;
+  font-family: "Montserrat";
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -0.3499999940395355px;
+  text-align: left;
+  color: #212121;
+}
+
+.world-tour-text-area img {
+  vertical-align: middle;
+}
+
+.world-tour-text-area .text {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 24px;
+  color: #52647c;
+  text-align: left;
+}
+
+.world-tour-text-area p {
+  margin-top: 16px;
+}
+
+.load-more {
+  margin-left: 419px;
+}
+
+.load-more button {
+  width: Hug (272px) px;
+  height: Hug (64px) px;
+  padding: 16px 72px 16px 72px;
+  border-radius: 3px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #0d6efd;
+}
+
+.load-more a {
+  font-family: "Montserrat";
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+}
+
+.inbox-section {
+  background-color: #0d6efd;
+  height: 354px;
+  margin-top: 80px;
+  margin-bottom: 120px;
+  background: url("/assets/img/daireli-arkaplan.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px;
+  position: relative;
+}
+
+.inbox-section .text-area {
+  position: absolute;
+  width: 426px;
+  margin-left: 342px;
+  padding-top: 77px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inbox-section h2 {
+  margin-bottom: 25px;
+  font-family: "Montserrat";
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.inbox-section p {
+  margin-top: 11px;
+  font-family: "Open Sans";
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.inbox-section a {
+  color: #ffffff;
+}
+
+hr {
+  border: 1.25px solid #eaeaea;
+  margin-bottom: 72px;
+  margin-top: 72px;
+}
+
+.tables {
+  margin-top: 72px;
+  display: flex;
+  padding-bottom: 72px;
+  gap: 10px;
+  padding-top: 50px;
+  padding-inline: 165px;
+}
+
+.tables .column {
+  width: 165px;
+  height: 152px;
+}
+
+.tables ul {
+  text-align: left;
+  margin-right: 24px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-left: 0;
+}
+
+.tables li {
+  padding-top: 8px;
+  list-style-type: none;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.column a {
+  color: #807e7e;
+}
+
+.input-container {
+  width: 354px;
+  margin-left: 24px;
+}
+
+.input-container p {
+  text-align: right;
+  margin-bottom: 24px;
+}
+.input-container a {
+  color: #212121;
+  line-height: 28px;
+  font-family: "Open Sans";
+}
+
+.footer {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  padding-inline: 165px;
+}
+
+.footer p {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.footer-social-media {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
